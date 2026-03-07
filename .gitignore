@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env
+.vscode/
+.idea/
+.DS_Store
+# Deixamos os logs e extraídos por enquanto pois o usuário quer "tudo"
+# Mas ignoramos pastas do sistema AGENTIC
+.gemini/
+.agents/
+.agent/
+_agents/
+_agent/
+brain/

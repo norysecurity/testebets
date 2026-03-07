@@ -1,0 +1,42 @@
+﻿=======================================================
+  BetAuditor - Teste de Tokens 55QQ
+=======================================================
+  user_id       : 4273537843
+  session_token : ggaebj9vkuhft3c249ot8t4vrm4ugbejvmcpuh0j...
+  token_data    : MFX30bpEo3md-j9Xtwn-CjqfqpKVOrOV0vxHCIsL...
+  auth_tag      : ggaebj9vkuhft3c249ot8t4vrm4ugbejvmcpuh0j...
+
+=======================================================
+  [SESSION TOKEN]
+  Auth: ggaebj9vkuhft3c249ot8t4vrm4ugbejvmcpuh0j...
+=======================================================
+  [---] 401  user.details
+  [---] 401  user.assets
+  [---] 401  wallet.balance
+  [---] 401  mail.noRead
+  [---] 401  activity.list
+  [---] 403  auth.token
+
+=======================================================
+  [TOKEN DATA (JWT longo)]
+  Auth: MFX30bpEo3md-j9Xtwn-CjqfqpKVOrOV0vxHCIsLs_XGq0KopOla3eaUboZ3...
+=======================================================
+  [---] 401  user.details
+  [---] 401  user.assets
+  [---] 401  wallet.balance
+  [---] 401  mail.noRead
+  [---] 401  activity.list
+  [---] 401  auth.token
+
+=======================================================
+  [AUTH TAG]
+  Auth: ggaebj9vkuhft3c249ot8t4vrm4ugbejvmcpuh0j;561d0fcc17c8ed93e2b...
+=======================================================
+  [---] 401  user.details
+  [---] 401  user.assets
+  [---] 401  wallet.balance
+  [---] 401  mail.noRead
+  [---] 401  activity.list
+  [---] 401  auth.token
+
+[CONCLUIDO]

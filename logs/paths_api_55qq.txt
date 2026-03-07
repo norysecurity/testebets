@@ -1,0 +1,212 @@
+﻿
+  ____       _      _             _ _ _
+ | __ )  ___| |_   / \  _   _  __| (_) |_ ___  _ __
+ |  _ \ / _ \ __| / _ \| | | |/ _` | | __/ _ \| '__|
+ | |_) |  __/ |_ / ___ \ |_| | (_| | | || (_) | |
+ |____/ \___|\__/_/   \_\__,_|\__,_|_|\__\___/|_|
+
+   6 M├│dulos  |  Siente Pentest Suite  |  v2.0
+   race ┬À jwt ┬À fuzz ┬À otp ┬À paths ┬À scan
+ÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉ
+ÔÜá  Apenas para uso em ambientes com autoriza├º├úo formal.
+
+
+ÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉ
+  M├ôDULO 5 ÔÇö PATH DISCOVERY (GoBuster-style)
+ÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉ
+  Alvo         : https://api5.a-b-c-8.com
+  Total paths  : 90
+  Concorr├¬ncia : 50
+  Ignorando    : HTTP [404, 410]
+ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+
+  Status    Tamanho      ms  Path
+  ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ  ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+  ­ƒö┤ 403           0   156.0  admin
+  ­ƒö┤ 403           0   141.0  admin/
+  ­ƒö┤ 403           0   141.0  admin/login
+  ­ƒö┤ 403           0   156.0  admin/dashboard
+  ­ƒö┤ 403           0   141.0  admin/panel
+  ­ƒö┤ 403           0   156.0  administrator
+  ­ƒö┤ 403           0   141.0  administrator/login
+  ­ƒö┤ 403           0   141.0  adm
+  ­ƒö┤ 403           0   141.0  adm/login
+  ­ƒö┤ 403           0   141.0  zadmin
+  ­ƒö┤ 403           0   141.0  zadmin/
+  ­ƒö┤ 403           0   141.0  zadmin/login
+  ­ƒö┤ 403           0   141.0  manage
+  ­ƒö┤ 403           0   141.0  management
+  ­ƒö┤ 403           0   141.0  manager
+  ­ƒö┤ 403           0   156.0  superadmin
+  ­ƒö┤ 403           0   156.0  backend
+  ­ƒö┤ 403           0   141.0  backoffice
+  ­ƒö┤ 403           0   125.0  controlpanel
+  ­ƒö┤ 403           0   141.0  cp
+  ­ƒö┤ 403           0   156.0  api
+  ­ƒö┤ 403           0   156.0  api/v1
+  ­ƒö┤ 403           0   156.0  api/v2
+  ­ƒö┤ 403           0   141.0  api/v3
+  ­ƒö┤ 403           0   141.0  api/admin
+  ­ƒö┤ 403           0   141.0  api/users
+  ­ƒö┤ 403           0   141.0  api/config
+  ­ƒö┤ 403           0   156.0  api/refund
+  ­ƒö┤ 403           0   156.0  api/refunds
+  ­ƒö┤ 403           0   156.0  api/affiliate
+  ­ƒö┤ 403           0   156.0  api/affiliates
+  ­ƒö┤ 403           0   656.0  login
+  ­ƒö┤ 403           0   125.0  logout
+  ­ƒö┤ 403           0   141.0  register
+  ­ƒö┤ 403           0   141.0  signup
+  ­ƒö┤ 403           0   141.0  signin
+  ­ƒö┤ 403           0   141.0  auth
+  ­ƒö┤ 403           0   141.0  auth/login
+  ­ƒö┤ 403           0   156.0  oauth
+  ­ƒö┤ 403           0   156.0  oauth/callback
+  ­ƒö┤ 403           0   141.0  forgot-password
+  ­ƒö┤ 403           0   141.0  reset-password
+  ­ƒö┤ 403           0   156.0  export
+  ­ƒö┤ 403           0   141.0  export/db
+  ­ƒö┤ 403           0   141.0  export/users
+  ­ƒö┤ 403           0   141.0  download
+  ­ƒö┤ 403           0   141.0  backup
+  ­ƒö┤ 403           0   141.0  backup.sql
+  ­ƒö┤ 403           0   141.0  backup.zip
+  ­ƒö┤ 403           0   141.0  db.sql
+  ­ƒö┤ 403           0    15.0  database
+  ­ƒö┤ 403           0    15.0  dump
+  ­ƒö┤ 403           0    15.0  .env
+  ­ƒö┤ 403           0    15.0  config.json
+  ­ƒö┤ 403           0    15.0  docs
+  ­ƒö┤ 403           0    15.0  swagger
+  ­ƒö┤ 403           0    15.0  swagger-ui
+  ­ƒö┤ 403           0    15.0  swagger.json
+  ­ƒö┤ 403           0    15.0  openapi.json
+  ­ƒö┤ 403           0    15.0  api-docs
+  ­ƒö┤ 403           0    15.0  graphql
+  ­ƒö┤ 403           0    15.0  graphiql
+  ­ƒö┤ 403           0    31.0  debug
+  ­ƒö┤ 403           0    31.0  debug/pprof
+  ­ƒö┤ 403           0    15.0  test
+  ­ƒö┤ 403           0    31.0  staging
+  ­ƒö┤ 403           0    31.0  community
+  ­ƒö┤ 403           0    31.0  members
+  ­ƒö┤ 403           0    31.0  courses
+  ­ƒö┤ 403           0    31.0  lessons
+  ­ƒö┤ 403           0    31.0  affiliate
+  ­ƒö┤ 403           0    31.0  affiliates
+  ­ƒö┤ 403           0    31.0  refund
+  ­ƒö┤ 403           0    31.0  refunds
+  ­ƒö┤ 403           0    31.0  checkout
+  ­ƒö┤ 403           0    31.0  payment
+  ­ƒö┤ 403           0    31.0  payments
+  ­ƒö┤ 403           0    31.0  pix
+  ­ƒö┤ 403           0    31.0  health
+  ­ƒö┤ 403           0    31.0  status
+  ­ƒö┤ 403           0    31.0  ping
+  ­ƒö┤ 403           0    31.0  .git
+  ­ƒö┤ 403           0    31.0  .git/config
+  ­ƒö┤ 403           0    16.0  .gitignore
+  ­ƒö┤ 403           0    16.0  robots.txt
+  ­ƒö┤ 403           0    16.0  sitemap.xml
+  ­ƒö┤ 403           0    16.0  wp-login.php
+  ­ƒö┤ 403           0    16.0  phpmyadmin
+  ­ƒö┤ 403           0    16.0  pma
+  ­ƒö┤ 403           0    16.0  phpinfo.php
+
+ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+  RESUMO ÔÇö 0.7s | 90 paths testados | 90 encontrado(s)
+
+  Paths encontrados (por status):
+    [403] https://api5.a-b-c-8.com/admin
+    [403] https://api5.a-b-c-8.com/admin/
+    [403] https://api5.a-b-c-8.com/admin/login
+    [403] https://api5.a-b-c-8.com/admin/dashboard
+    [403] https://api5.a-b-c-8.com/admin/panel
+    [403] https://api5.a-b-c-8.com/administrator
+    [403] https://api5.a-b-c-8.com/administrator/login
+    [403] https://api5.a-b-c-8.com/adm
+    [403] https://api5.a-b-c-8.com/adm/login
+    [403] https://api5.a-b-c-8.com/zadmin
+    [403] https://api5.a-b-c-8.com/zadmin/
+    [403] https://api5.a-b-c-8.com/zadmin/login
+    [403] https://api5.a-b-c-8.com/manage
+    [403] https://api5.a-b-c-8.com/management
+    [403] https://api5.a-b-c-8.com/manager
+    [403] https://api5.a-b-c-8.com/superadmin
+    [403] https://api5.a-b-c-8.com/backend
+    [403] https://api5.a-b-c-8.com/backoffice
+    [403] https://api5.a-b-c-8.com/controlpanel
+    [403] https://api5.a-b-c-8.com/cp
+    [403] https://api5.a-b-c-8.com/api
+    [403] https://api5.a-b-c-8.com/api/v1
+    [403] https://api5.a-b-c-8.com/api/v2
+    [403] https://api5.a-b-c-8.com/api/v3
+    [403] https://api5.a-b-c-8.com/api/admin
+    [403] https://api5.a-b-c-8.com/api/users
+    [403] https://api5.a-b-c-8.com/api/config
+    [403] https://api5.a-b-c-8.com/api/refund
+    [403] https://api5.a-b-c-8.com/api/refunds
+    [403] https://api5.a-b-c-8.com/api/affiliate
+    [403] https://api5.a-b-c-8.com/api/affiliates
+    [403] https://api5.a-b-c-8.com/login
+    [403] https://api5.a-b-c-8.com/logout
+    [403] https://api5.a-b-c-8.com/register
+    [403] https://api5.a-b-c-8.com/signup
+    [403] https://api5.a-b-c-8.com/signin
+    [403] https://api5.a-b-c-8.com/auth
+    [403] https://api5.a-b-c-8.com/auth/login
+    [403] https://api5.a-b-c-8.com/oauth
+    [403] https://api5.a-b-c-8.com/oauth/callback
+    [403] https://api5.a-b-c-8.com/forgot-password
+    [403] https://api5.a-b-c-8.com/reset-password
+    [403] https://api5.a-b-c-8.com/export
+    [403] https://api5.a-b-c-8.com/export/db
+    [403] https://api5.a-b-c-8.com/export/users
+    [403] https://api5.a-b-c-8.com/download
+    [403] https://api5.a-b-c-8.com/backup
+    [403] https://api5.a-b-c-8.com/backup.sql
+    [403] https://api5.a-b-c-8.com/backup.zip
+    [403] https://api5.a-b-c-8.com/db.sql
+    [403] https://api5.a-b-c-8.com/database
+    [403] https://api5.a-b-c-8.com/dump
+    [403] https://api5.a-b-c-8.com/.env
+    [403] https://api5.a-b-c-8.com/config.json
+    [403] https://api5.a-b-c-8.com/docs
+    [403] https://api5.a-b-c-8.com/swagger
+    [403] https://api5.a-b-c-8.com/swagger-ui
+    [403] https://api5.a-b-c-8.com/swagger.json
+    [403] https://api5.a-b-c-8.com/openapi.json
+    [403] https://api5.a-b-c-8.com/api-docs
+    [403] https://api5.a-b-c-8.com/graphql
+    [403] https://api5.a-b-c-8.com/graphiql
+    [403] https://api5.a-b-c-8.com/debug
+    [403] https://api5.a-b-c-8.com/debug/pprof
+    [403] https://api5.a-b-c-8.com/test
+    [403] https://api5.a-b-c-8.com/staging
+    [403] https://api5.a-b-c-8.com/community
+    [403] https://api5.a-b-c-8.com/members
+    [403] https://api5.a-b-c-8.com/courses
+    [403] https://api5.a-b-c-8.com/lessons
+    [403] https://api5.a-b-c-8.com/affiliate
+    [403] https://api5.a-b-c-8.com/affiliates
+    [403] https://api5.a-b-c-8.com/refund
+    [403] https://api5.a-b-c-8.com/refunds
+    [403] https://api5.a-b-c-8.com/checkout
+    [403] https://api5.a-b-c-8.com/payment
+    [403] https://api5.a-b-c-8.com/payments
+    [403] https://api5.a-b-c-8.com/pix
+    [403] https://api5.a-b-c-8.com/health
+    [403] https://api5.a-b-c-8.com/status
+    [403] https://api5.a-b-c-8.com/ping
+    [403] https://api5.a-b-c-8.com/.git
+    [403] https://api5.a-b-c-8.com/.git/config
+    [403] https://api5.a-b-c-8.com/.gitignore
+    [403] https://api5.a-b-c-8.com/robots.txt
+    [403] https://api5.a-b-c-8.com/sitemap.xml
+    [403] https://api5.a-b-c-8.com/wp-login.php
+    [403] https://api5.a-b-c-8.com/phpmyadmin
+    [403] https://api5.a-b-c-8.com/pma
+    [403] https://api5.a-b-c-8.com/phpinfo.php
+
+[Ô£ô] Path Discovery conclu├¡do.
+

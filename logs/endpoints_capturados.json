@@ -1,0 +1,1252 @@
+[
+  {
+    "ts": "14:07:18.431",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/home.hot?input=%7B%22json%22%3A%7B%22page%22%3A1%2C%22pageSize%22%3A2000%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:18.433",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/home.list?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:18.435",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/mainMedia.list?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:18.437",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/game.sidebarList?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:18.439",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/tenant.footerText?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:18.440",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/banner.list?input=%7B%22json%22%3A%7B%22bannerType%22%3A%22lobby_carousel%22%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:18.443",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/home.platformList?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:18.487",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/activity.listPublic?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:18.513",
+    "metodo": "GET",
+    "url": "https://55qq2.com/icons/tabbar/withdraw3.png",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:18.579",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/banner.quickEntryListPublic?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:18.592",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/game.list?input=%7B%22json%22%3A%5B%7B%22platformId%22%3A23%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A25%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A29%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A33%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A34%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A35%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A36%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A37%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A38%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A39%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A40%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A42%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A43%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A45%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%5D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:18.603",
+    "metodo": "GET",
+    "url": "https://55qq2.com/images/gameWrapperHead.jpg",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:18.686",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/carouselConfig.list?input=%7B%22json%22%3A%7B%22type%22%3A%22text%22%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:18.689",
+    "metodo": "GET",
+    "url": "https://upload-us.i-j-2-k.com/s5/1767697636863/PDgame.svg",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:18.694",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/banner.list?input=%7B%22json%22%3A%7B%22bannerType%22%3A%22lobby_sidebar_banner%22%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:18.713",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/activity.activityDetailPublic?input=%7B%22json%22%3A%7B%22activityId%22%3A380%2C%22type%22%3A%22RedPacket%22%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:19.030",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/banner.list?input=%7B%22json%22%3A%7B%22bannerType%22%3A%22lobby_banner%22%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:20.686",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/home.hot?input=%7B%22json%22%3A%7B%22page%22%3A1%2C%22pageSize%22%3A2000%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:20.690",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/banner.list?input=%7B%22json%22%3A%7B%22bannerType%22%3A%22lobby_carousel%22%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:20.693",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/home.list?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:20.717",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/mainMedia.list?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:20.719",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/tenant.footerText?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:20.724",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/game.sidebarList?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:20.728",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/home.platformList?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:20.752",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/activity.listPublic?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:20.765",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/banner.quickEntryListPublic?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:20.835",
+    "metodo": "GET",
+    "url": "https://upload-us.i-j-2-k.com/s5/1767697636863/PDgame.svg",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:20.937",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/carouselConfig.list?input=%7B%22json%22%3A%7B%22type%22%3A%22text%22%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:20.944",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/game.list?input=%7B%22json%22%3A%5B%7B%22platformId%22%3A23%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A25%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A29%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A33%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A34%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A35%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A36%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A37%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A38%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A39%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A40%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A42%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A43%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A45%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%5D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:20.957",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/activity.activityDetailPublic?input=%7B%22json%22%3A%7B%22activityId%22%3A380%2C%22type%22%3A%22RedPacket%22%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:20.987",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/banner.list?input=%7B%22json%22%3A%7B%22bannerType%22%3A%22lobby_sidebar_banner%22%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:21.288",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/banner.list?input=%7B%22json%22%3A%7B%22bannerType%22%3A%22lobby_banner%22%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:21.578",
+    "metodo": "GET",
+    "url": "https://55qq2.com/images/gameWrapperHead.jpg",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:22.199",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/announcement.loginOut?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:22.505",
+    "metodo": "GET",
+    "url": "https://55qq2.com/icons/tabbar/withdraw3.png",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:28.566",
+    "metodo": "GET",
+    "url": "https://55qq2.com/first/svg/login/close.svg",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:28.614",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/auth.tenants?input=%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:28.617",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/auth.info?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:29.968",
+    "metodo": "POST",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/auth.login",
+    "auth": null,
+    "payload": {
+      "json": {
+        "username": "31971526459",
+        "password": "hw@c74jFu5p,",
+        "hToken": null,
+        "lastLoginDevice": "e928da98-81af-44dd-895c-c9ad297dd268",
+        "loginDeviceModel": "web Windows NT 10.0 windows Windows NT 10.0; Win64; x64",
+        "appType": "DesktopOS"
+      },
+      "meta": {
+        "values": {
+          "hToken": [
+            "undefined"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "ts": "14:07:30.817",
+    "metodo": "POST",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/auth.token",
+    "auth": "Bearer 3gbk7pvq1ogws7ftw1adc228uteglk31cs8d3n6q",
+    "payload": {
+      "json": {}
+    }
+  },
+  {
+    "ts": "14:07:31.141",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/mail.noRead?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": "Bearer 3gbk7pvq1ogws7ftw1adc228uteglk31cs8d3n6q",
+    "payload": {}
+  },
+  {
+    "ts": "14:07:31.152",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/banner.list?input=%7B%22json%22%3A%7B%22bannerType%22%3A%22lobby_carousel%22%7D%7D",
+    "auth": "Bearer 3gbk7pvq1ogws7ftw1adc228uteglk31cs8d3n6q",
+    "payload": {}
+  },
+  {
+    "ts": "14:07:31.155",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/home.list?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": "Bearer 3gbk7pvq1ogws7ftw1adc228uteglk31cs8d3n6q",
+    "payload": {}
+  },
+  {
+    "ts": "14:07:31.158",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/user.details?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": "Bearer 3gbk7pvq1ogws7ftw1adc228uteglk31cs8d3n6q",
+    "payload": {}
+  },
+  {
+    "ts": "14:07:31.160",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/user.assets?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": "Bearer 3gbk7pvq1ogws7ftw1adc228uteglk31cs8d3n6q",
+    "payload": {}
+  },
+  {
+    "ts": "14:07:31.162",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/activity.redPoint?input=%7B%22json%22%3A%7B%22activityIds%22%3A%5B%5D%7D%7D",
+    "auth": "Bearer 3gbk7pvq1ogws7ftw1adc228uteglk31cs8d3n6q",
+    "payload": {}
+  },
+  {
+    "ts": "14:07:31.164",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/home.platformList?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": "Bearer 3gbk7pvq1ogws7ftw1adc228uteglk31cs8d3n6q",
+    "payload": {}
+  },
+  {
+    "ts": "14:07:31.166",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/activity.homeTop?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": "Bearer 3gbk7pvq1ogws7ftw1adc228uteglk31cs8d3n6q",
+    "payload": {}
+  },
+  {
+    "ts": "14:07:31.169",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/activity.list?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": "Bearer 3gbk7pvq1ogws7ftw1adc228uteglk31cs8d3n6q",
+    "payload": {}
+  },
+  {
+    "ts": "14:07:31.279",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/auth.tenants?input=%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:31.283",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/auth.info?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:31.302",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/game.list?input=%7B%22json%22%3A%5B%7B%22platformId%22%3A23%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A2%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A25%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A2%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A29%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A2%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A33%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A2%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A34%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A2%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A35%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A2%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A36%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A2%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A37%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A2%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A38%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A2%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A39%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A2%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A40%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A2%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A42%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A2%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A43%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A2%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A45%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A2%2C%22pageSize%22%3A32%7D%5D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:31.374",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/carouselConfig.list?input=%7B%22json%22%3A%7B%22type%22%3A%22text%22%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:31.527",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/announcement.loginOut?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:36.625",
+    "metodo": "POST",
+    "url": "https://api5.a-b-c-8.com/api/frontend/pusher/user-auth",
+    "auth": null,
+    "payload": {
+      "raw": "socket_id=885788.15083108"
+    }
+  },
+  {
+    "ts": "14:07:36.634",
+    "metodo": "POST",
+    "url": "https://api5.a-b-c-8.com/api/frontend/pusher/channel-auth",
+    "auth": null,
+    "payload": {
+      "raw": "socket_id=885788.15083108&channel_name=private-3022708"
+    }
+  },
+  {
+    "ts": "14:07:40.452",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/announcement.loginOut?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:43.684",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/auth.tenants?input=%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:43.699",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/auth.info?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:45.344",
+    "metodo": "POST",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/auth.login",
+    "auth": null,
+    "payload": {
+      "json": {
+        "username": "31971526459",
+        "password": "hw@c74jFu5p,",
+        "hToken": null,
+        "lastLoginDevice": "e928da98-81af-44dd-895c-c9ad297dd268",
+        "loginDeviceModel": "web Windows NT 10.0 windows Windows NT 10.0; Win64; x64",
+        "appType": "DesktopOS"
+      },
+      "meta": {
+        "values": {
+          "hToken": [
+            "undefined"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "ts": "14:07:46.183",
+    "metodo": "POST",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/auth.token",
+    "auth": "Bearer 9flsrpxj044j7e1620ng58f004nf1aiae2caz4tj",
+    "payload": {
+      "json": {}
+    }
+  },
+  {
+    "ts": "14:07:46.470",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/mail.noRead?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": "Bearer 9flsrpxj044j7e1620ng58f004nf1aiae2caz4tj",
+    "payload": {}
+  },
+  {
+    "ts": "14:07:46.482",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/banner.list?input=%7B%22json%22%3A%7B%22bannerType%22%3A%22lobby_carousel%22%7D%7D",
+    "auth": "Bearer 9flsrpxj044j7e1620ng58f004nf1aiae2caz4tj",
+    "payload": {}
+  },
+  {
+    "ts": "14:07:46.484",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/home.list?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": "Bearer 9flsrpxj044j7e1620ng58f004nf1aiae2caz4tj",
+    "payload": {}
+  },
+  {
+    "ts": "14:07:46.584",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/user.details?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": "Bearer 9flsrpxj044j7e1620ng58f004nf1aiae2caz4tj",
+    "payload": {}
+  },
+  {
+    "ts": "14:07:46.587",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/user.assets?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": "Bearer 9flsrpxj044j7e1620ng58f004nf1aiae2caz4tj",
+    "payload": {}
+  },
+  {
+    "ts": "14:07:46.589",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/activity.redPoint?input=%7B%22json%22%3A%7B%22activityIds%22%3A%5B%5D%7D%7D",
+    "auth": "Bearer 9flsrpxj044j7e1620ng58f004nf1aiae2caz4tj",
+    "payload": {}
+  },
+  {
+    "ts": "14:07:46.591",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/home.platformList?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": "Bearer 9flsrpxj044j7e1620ng58f004nf1aiae2caz4tj",
+    "payload": {}
+  },
+  {
+    "ts": "14:07:46.593",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/activity.homeTop?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": "Bearer 9flsrpxj044j7e1620ng58f004nf1aiae2caz4tj",
+    "payload": {}
+  },
+  {
+    "ts": "14:07:46.703",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/activity.list?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": "Bearer 9flsrpxj044j7e1620ng58f004nf1aiae2caz4tj",
+    "payload": {}
+  },
+  {
+    "ts": "14:07:46.821",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/game.list?input=%7B%22json%22%3A%5B%7B%22platformId%22%3A23%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A3%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A25%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A3%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A29%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A3%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A33%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A3%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A34%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A3%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A35%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A3%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A36%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A3%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A37%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A3%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A38%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A3%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A39%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A3%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A40%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A3%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A42%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A3%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A43%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A3%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A45%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A3%2C%22pageSize%22%3A32%7D%5D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:46.835",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/auth.tenants?input=%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:46.838",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/auth.info?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:46.843",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/carouselConfig.list?input=%7B%22json%22%3A%7B%22type%22%3A%22text%22%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:46.906",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/announcement.loginOut?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:47.143",
+    "metodo": "POST",
+    "url": "https://api5.a-b-c-8.com/api/frontend/pusher/user-auth",
+    "auth": null,
+    "payload": {
+      "raw": "socket_id=885511.15284708"
+    }
+  },
+  {
+    "ts": "14:07:47.150",
+    "metodo": "POST",
+    "url": "https://api5.a-b-c-8.com/api/frontend/pusher/channel-auth",
+    "auth": null,
+    "payload": {
+      "raw": "socket_id=885511.15284708&channel_name=private-3022708"
+    }
+  },
+  {
+    "ts": "14:07:48.427",
+    "metodo": "POST",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/auth.login",
+    "auth": null,
+    "payload": {
+      "json": {
+        "username": "31971526459",
+        "password": "hw@c74jFu5p,",
+        "hToken": null,
+        "lastLoginDevice": "e928da98-81af-44dd-895c-c9ad297dd268",
+        "loginDeviceModel": "web Windows NT 10.0 windows Windows NT 10.0; Win64; x64",
+        "appType": "DesktopOS"
+      },
+      "meta": {
+        "values": {
+          "hToken": [
+            "undefined"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "ts": "14:07:49.252",
+    "metodo": "POST",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/auth.token",
+    "auth": "Bearer 8hnvdp6ydlthbbtm85zcrqylfamc3rtzq1o48cw1",
+    "payload": {
+      "json": {}
+    }
+  },
+  {
+    "ts": "14:07:49.556",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/mail.noRead?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": "Bearer 8hnvdp6ydlthbbtm85zcrqylfamc3rtzq1o48cw1",
+    "payload": {}
+  },
+  {
+    "ts": "14:07:49.560",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/banner.list?input=%7B%22json%22%3A%7B%22bannerType%22%3A%22lobby_carousel%22%7D%7D",
+    "auth": "Bearer 8hnvdp6ydlthbbtm85zcrqylfamc3rtzq1o48cw1",
+    "payload": {}
+  },
+  {
+    "ts": "14:07:49.563",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/home.list?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": "Bearer 8hnvdp6ydlthbbtm85zcrqylfamc3rtzq1o48cw1",
+    "payload": {}
+  },
+  {
+    "ts": "14:07:49.566",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/user.details?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": "Bearer 8hnvdp6ydlthbbtm85zcrqylfamc3rtzq1o48cw1",
+    "payload": {}
+  },
+  {
+    "ts": "14:07:49.574",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/user.assets?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": "Bearer 8hnvdp6ydlthbbtm85zcrqylfamc3rtzq1o48cw1",
+    "payload": {}
+  },
+  {
+    "ts": "14:07:49.577",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/activity.redPoint?input=%7B%22json%22%3A%7B%22activityIds%22%3A%5B%5D%7D%7D",
+    "auth": "Bearer 8hnvdp6ydlthbbtm85zcrqylfamc3rtzq1o48cw1",
+    "payload": {}
+  },
+  {
+    "ts": "14:07:49.580",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/home.platformList?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": "Bearer 8hnvdp6ydlthbbtm85zcrqylfamc3rtzq1o48cw1",
+    "payload": {}
+  },
+  {
+    "ts": "14:07:49.583",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/activity.homeTop?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": "Bearer 8hnvdp6ydlthbbtm85zcrqylfamc3rtzq1o48cw1",
+    "payload": {}
+  },
+  {
+    "ts": "14:07:49.585",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/activity.list?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": "Bearer 8hnvdp6ydlthbbtm85zcrqylfamc3rtzq1o48cw1",
+    "payload": {}
+  },
+  {
+    "ts": "14:07:49.710",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/game.list?input=%7B%22json%22%3A%5B%7B%22platformId%22%3A23%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A4%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A25%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A4%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A29%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A4%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A33%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A4%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A34%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A4%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A35%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A4%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A36%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A4%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A37%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A4%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A38%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A4%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A39%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A4%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A40%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A4%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A42%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A4%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A43%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A4%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A45%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A4%2C%22pageSize%22%3A32%7D%5D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:49.723",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/auth.tenants?input=%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:49.726",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/auth.info?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:49.732",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/carouselConfig.list?input=%7B%22json%22%3A%7B%22type%22%3A%22text%22%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:49.954",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/announcement.loginOut?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:07:54.992",
+    "metodo": "POST",
+    "url": "https://api5.a-b-c-8.com/api/frontend/pusher/user-auth",
+    "auth": null,
+    "payload": {
+      "raw": "socket_id=886208.13392373"
+    }
+  },
+  {
+    "ts": "14:07:54.996",
+    "metodo": "POST",
+    "url": "https://api5.a-b-c-8.com/api/frontend/pusher/channel-auth",
+    "auth": null,
+    "payload": {
+      "raw": "socket_id=886208.13392373&channel_name=private-3022708"
+    }
+  },
+  {
+    "ts": "14:08:00.141",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/announcement.loginOut?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:08:54.465",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/home.hot?input=%7B%22json%22%3A%7B%22page%22%3A1%2C%22pageSize%22%3A2000%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:08:54.468",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/game.sidebarList?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:08:54.470",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/banner.list?input=%7B%22json%22%3A%7B%22bannerType%22%3A%22lobby_carousel%22%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:08:54.473",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/home.list?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:08:54.479",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/tenant.footerText?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:08:54.483",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/mainMedia.list?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:08:54.486",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/home.platformList?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:08:54.538",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/activity.listPublic?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:08:54.591",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/banner.quickEntryListPublic?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:08:54.608",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/carouselConfig.list?input=%7B%22json%22%3A%7B%22type%22%3A%22text%22%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:08:54.644",
+    "metodo": "GET",
+    "url": "https://55qq2.com/images/gameWrapperHead.jpg",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:08:54.694",
+    "metodo": "GET",
+    "url": "https://55qq2.com/icons/tabbar/withdraw3.png",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:08:54.721",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/banner.list?input=%7B%22json%22%3A%7B%22bannerType%22%3A%22lobby_sidebar_banner%22%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:08:54.739",
+    "metodo": "GET",
+    "url": "https://upload-us.i-j-2-k.com/s5/1767697636863/PDgame.svg",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:08:54.761",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/activity.activityDetailPublic?input=%7B%22json%22%3A%7B%22activityId%22%3A380%2C%22type%22%3A%22RedPacket%22%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:08:54.766",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/game.list?input=%7B%22json%22%3A%5B%7B%22platformId%22%3A23%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A25%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A29%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A33%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A34%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A35%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A36%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A37%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A38%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A39%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A40%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A42%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A43%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A45%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%5D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:08:55.266",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/banner.list?input=%7B%22json%22%3A%7B%22bannerType%22%3A%22lobby_banner%22%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:08:55.919",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/announcement.loginOut?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:08:59.368",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/auth.tenants?input=%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:08:59.373",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/auth.info?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:08:59.457",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/home.platformList?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:08:59.469",
+    "metodo": "GET",
+    "url": "https://55qq2.com/first/svg/login/close.svg",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:03.868",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/announcement.loginOut?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:03.906",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/auth.tenants?input=%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:03.921",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/auth.info?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:04.020",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/home.platformList?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:23.983",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/announcement.loginOut?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:36.112",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/home.hot?input=%7B%22json%22%3A%7B%22page%22%3A1%2C%22pageSize%22%3A2000%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:36.116",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/banner.list?input=%7B%22json%22%3A%7B%22bannerType%22%3A%22lobby_carousel%22%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:36.119",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/mainMedia.list?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:36.126",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/home.list?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:36.131",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/tenant.footerText?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:36.137",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/game.sidebarList?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:36.158",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/home.platformList?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:36.200",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/activity.listPublic?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:36.267",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/banner.quickEntryListPublic?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:36.314",
+    "metodo": "GET",
+    "url": "https://55qq2.com/icons/tabbar/withdraw3.png",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:36.354",
+    "metodo": "GET",
+    "url": "https://55qq2.com/images/gameWrapperHead.jpg",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:36.400",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/banner.list?input=%7B%22json%22%3A%7B%22bannerType%22%3A%22lobby_sidebar_banner%22%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:36.410",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/carouselConfig.list?input=%7B%22json%22%3A%7B%22type%22%3A%22text%22%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:36.426",
+    "metodo": "GET",
+    "url": "https://upload-us.i-j-2-k.com/s5/1767697636863/PDgame.svg",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:36.495",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/activity.activityDetailPublic?input=%7B%22json%22%3A%7B%22activityId%22%3A380%2C%22type%22%3A%22RedPacket%22%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:36.502",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/game.list?input=%7B%22json%22%3A%5B%7B%22platformId%22%3A23%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A25%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A29%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A33%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A34%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A35%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A36%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A37%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A38%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A39%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A40%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A42%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A43%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A45%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A1%2C%22pageSize%22%3A32%7D%5D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:36.891",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/banner.list?input=%7B%22json%22%3A%7B%22bannerType%22%3A%22lobby_banner%22%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:37.574",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/announcement.loginOut?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:40.008",
+    "metodo": "GET",
+    "url": "https://55qq2.com/first/svg/login/close.svg",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:40.016",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/auth.tenants?input=%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:40.028",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/auth.info?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:40.181",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/home.platformList?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:41.876",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/auth.tenants?input=%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:41.889",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/auth.info?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:42.322",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/announcement.loginOut?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:43.138",
+    "metodo": "POST",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/auth.login",
+    "auth": null,
+    "payload": {
+      "json": {
+        "username": "31971526459",
+        "password": "hw@c74jFu5p,",
+        "hToken": null,
+        "lastLoginDevice": "e928da98-81af-44dd-895c-c9ad297dd268",
+        "loginDeviceModel": "web Windows NT 10.0 windows Windows NT 10.0; Win64; x64",
+        "appType": "DesktopOS"
+      },
+      "meta": {
+        "values": {
+          "hToken": [
+            "undefined"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "ts": "14:09:44.011",
+    "metodo": "POST",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/auth.token",
+    "auth": "Bearer ggaebj9vkuhft3c249ot8t4vrm4ugbejvmcpuh0j",
+    "payload": {
+      "json": {}
+    }
+  },
+  {
+    "ts": "14:09:44.389",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/mail.noRead?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": "Bearer ggaebj9vkuhft3c249ot8t4vrm4ugbejvmcpuh0j",
+    "payload": {}
+  },
+  {
+    "ts": "14:09:44.395",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/banner.list?input=%7B%22json%22%3A%7B%22bannerType%22%3A%22lobby_carousel%22%7D%7D",
+    "auth": "Bearer ggaebj9vkuhft3c249ot8t4vrm4ugbejvmcpuh0j",
+    "payload": {}
+  },
+  {
+    "ts": "14:09:44.406",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/home.list?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": "Bearer ggaebj9vkuhft3c249ot8t4vrm4ugbejvmcpuh0j",
+    "payload": {}
+  },
+  {
+    "ts": "14:09:44.410",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/user.details?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": "Bearer ggaebj9vkuhft3c249ot8t4vrm4ugbejvmcpuh0j",
+    "payload": {}
+  },
+  {
+    "ts": "14:09:44.413",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/user.assets?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": "Bearer ggaebj9vkuhft3c249ot8t4vrm4ugbejvmcpuh0j",
+    "payload": {}
+  },
+  {
+    "ts": "14:09:44.416",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/activity.redPoint?input=%7B%22json%22%3A%7B%22activityIds%22%3A%5B%5D%7D%7D",
+    "auth": "Bearer ggaebj9vkuhft3c249ot8t4vrm4ugbejvmcpuh0j",
+    "payload": {}
+  },
+  {
+    "ts": "14:09:44.419",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/home.platformList?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": "Bearer ggaebj9vkuhft3c249ot8t4vrm4ugbejvmcpuh0j",
+    "payload": {}
+  },
+  {
+    "ts": "14:09:44.423",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/activity.homeTop?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": "Bearer ggaebj9vkuhft3c249ot8t4vrm4ugbejvmcpuh0j",
+    "payload": {}
+  },
+  {
+    "ts": "14:09:44.426",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/activity.list?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": "Bearer ggaebj9vkuhft3c249ot8t4vrm4ugbejvmcpuh0j",
+    "payload": {}
+  },
+  {
+    "ts": "14:09:44.532",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/game.list?input=%7B%22json%22%3A%5B%7B%22platformId%22%3A23%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A2%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A25%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A2%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A29%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A2%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A33%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A2%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A34%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A2%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A35%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A2%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A36%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A2%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A37%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A2%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A38%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A2%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A39%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A2%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A40%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A2%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A42%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A2%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A43%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A2%2C%22pageSize%22%3A32%7D%2C%7B%22platformId%22%3A45%2C%22gameType%22%3A%22ELECTRONIC%22%2C%22page%22%3A2%2C%22pageSize%22%3A32%7D%5D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:44.540",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/auth.tenants?input=%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:44.552",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/auth.info?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:44.571",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/carouselConfig.list?input=%7B%22json%22%3A%7B%22type%22%3A%22text%22%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:44.682",
+    "metodo": "GET",
+    "url": "https://api5.a-b-c-8.com/api/frontend/trpc/announcement.loginOut?input=%7B%22json%22%3A%7B%7D%7D",
+    "auth": null,
+    "payload": {}
+  },
+  {
+    "ts": "14:09:44.984",
+    "metodo": "POST",
+    "url": "https://api5.a-b-c-8.com/api/frontend/pusher/user-auth",
+    "auth": null,
+    "payload": {
+      "raw": "socket_id=885521.14694044"
+    }
+  },
+  {
+    "ts": "14:09:44.992",
+    "metodo": "POST",
+    "url": "https://api5.a-b-c-8.com/api/frontend/pusher/channel-auth",
+    "auth": null,
+    "payload": {
+      "raw": "socket_id=885521.14694044&channel_name=private-3022708"
+    }
+  }
+]

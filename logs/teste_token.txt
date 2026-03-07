@@ -1,0 +1,48 @@
+﻿============================================================
+  BetAuditor ù Teste de Tokens Capturados
+  Target: api5.a-b-c-8.com (55QQ)
+============================================================
+
+============================================================
+  TESTANDO TOKEN: conta1_login
+  Token: khuy9e7bbrat3ub5cwqz...
+============================================================
+  [BLOQ] 401 GET user.details
+  [BLOQ] 401 GET user.assets
+  [BLOQ] 401 GET mail.noRead
+  [BLOQ] 401 GET activity.list
+  [BLOQ] 401 GET wallet.balance
+  [BLOQ] 403 POST auth.token
+
+  --- Testando auth.token para obter tokenData completo ---
+  STATUS: 403
+
+============================================================
+  TESTANDO TOKEN: conta2_login
+  Token: 49s71ni93yatzayvztm7...
+============================================================
+  [BLOQ] 401 GET user.details
+  [BLOQ] 401 GET user.assets
+  [BLOQ] 401 GET mail.noRead
+  [BLOQ] 401 GET activity.list
+  [BLOQ] 401 GET wallet.balance
+  [BLOQ] 403 POST auth.token
+
+  --- Testando auth.token para obter tokenData completo ---
+  STATUS: 403
+
+============================================================
+  TESTANDO TOKEN: conta1_registro
+  Token: 8dt8g0ui33h56o0m59rk...
+============================================================
+  [BLOQ] 401 GET user.details
+  [BLOQ] 401 GET user.assets
+  [BLOQ] 401 GET mail.noRead
+  [BLOQ] 401 GET activity.list
+  [BLOQ] 401 GET wallet.balance
+  [BLOQ] 403 POST auth.token
+
+  --- Testando auth.token para obter tokenData completo ---
+  STATUS: 403
+
+[CONCLUIDO] Verifique os resultados acima.

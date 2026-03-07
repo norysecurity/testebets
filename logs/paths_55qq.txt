@@ -1,0 +1,186 @@
+﻿
+  ____       _      _             _ _ _
+ | __ )  ___| |_   / \  _   _  __| (_) |_ ___  _ __
+ |  _ \ / _ \ __| / _ \| | | |/ _` | | __/ _ \| '__|
+ | |_) |  __/ |_ / ___ \ |_| | (_| | | || (_) | |
+ |____/ \___|\__/_/   \_\__,_|\__,_|_|\__\___/|_|
+
+   6 M├│dulos  |  Siente Pentest Suite  |  v2.0
+   race ┬À jwt ┬À fuzz ┬À otp ┬À paths ┬À scan
+ÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉ
+ÔÜá  Apenas para uso em ambientes com autoriza├º├úo formal.
+
+
+ÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉ
+  M├ôDULO 5 ÔÇö PATH DISCOVERY (GoBuster-style)
+ÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉ
+  Alvo         : https://55qq2.com
+  Total paths  : 90
+  Concorr├¬ncia : 50
+  Ignorando    : HTTP [404, 410]
+ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+
+  Status    Tamanho      ms  Path
+  ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ  ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+  ­ƒƒó 200           0   157.0  admin
+  ­ƒƒó 200           0   125.0  admin/
+  ­ƒƒó 200           0   125.0  admin/login
+  ­ƒƒó 200           0   157.0  admin/dashboard
+  ­ƒƒó 200           0   172.0  admin/panel
+  ­ƒƒó 200           0   172.0  administrator
+  ­ƒƒó 200           0   125.0  administrator/login
+  ­ƒƒó 200           0   125.0  adm
+  ­ƒƒó 200           0   125.0  adm/login
+  ­ƒƒó 200           0   141.0  zadmin
+  ­ƒƒó 200           0   125.0  zadmin/
+  ­ƒƒó 200           0   125.0  zadmin/login
+  ­ƒƒó 200           0   125.0  manage
+  ­ƒƒó 200           0   125.0  management
+  ­ƒƒó 200           0   157.0  manager
+  ­ƒƒó 200           0   172.0  superadmin
+  ­ƒƒó 200           0   157.0  backend
+  ­ƒƒó 200           0   125.0  backoffice
+  ­ƒƒó 200           0   125.0  controlpanel
+  ­ƒƒó 200           0   125.0  cp
+  ­ƒƒó 200           0   157.0  api
+  ­ƒö┤ 403           0   125.0  api/v1
+  ­ƒö┤ 403           0   157.0  api/v2
+  ­ƒö┤ 403           0   141.0  api/v3
+  ­ƒö┤ 403           0   125.0  api/admin
+  ­ƒö┤ 403           0   125.0  api/users
+  ­ƒö┤ 403           0   141.0  api/config
+  ­ƒö┤ 403           0   141.0  api/refund
+  ­ƒö┤ 403           0   141.0  api/refunds
+  ­ƒö┤ 403           0   141.0  api/affiliate
+  ­ƒö┤ 403           0   141.0  api/affiliates
+  ­ƒƒó 200           0   125.0  login
+  ­ƒƒó 200           0   157.0  logout
+  ­ƒƒó 200           0   125.0  register
+  ­ƒƒó 200           0   125.0  signup
+  ­ƒƒó 200           0   157.0  signin
+  ­ƒƒó 200           0   125.0  auth
+  ­ƒƒó 200           0   157.0  auth/login
+  ­ƒƒó 200           0   157.0  oauth
+  ­ƒƒó 200           0   141.0  oauth/callback
+  ­ƒƒó 200           0   157.0  forgot-password
+  ­ƒƒó 200           0   157.0  reset-password
+  ­ƒƒó 200           0   172.0  export
+  ­ƒƒó 200           0   141.0  export/db
+  ­ƒƒó 200           0   172.0  export/users
+  ­ƒƒó 200           0   391.0  download
+  ­ƒƒó 200           0   125.0  backup
+  ­ƒƒó 200           0    32.0  database
+  ­ƒƒó 200           0    32.0  dump
+  ­ƒƒó 200           0    32.0  docs
+  ­ƒƒó 200           0    16.0  swagger
+  ­ƒƒó 200           0    31.0  swagger-ui
+  ­ƒƒó 200           0    16.0  api-docs
+  ­ƒƒó 200           0    16.0  graphql
+  ­ƒƒó 200           0    16.0  graphiql
+  ­ƒƒó 200           0    16.0  debug
+  ­ƒƒó 200           0    16.0  debug/pprof
+  ­ƒƒó 200           0    16.0  test
+  ­ƒƒó 200           0    31.0  staging
+  ­ƒƒó 200           0    31.0  community
+  ­ƒƒó 200           0    31.0  members
+  ­ƒƒó 200           0    31.0  courses
+  ­ƒƒó 200           0    31.0  lessons
+  ­ƒƒó 200           0    31.0  affiliate
+  ­ƒƒó 200           0    31.0  affiliates
+  ­ƒƒó 200           0    31.0  refund
+  ­ƒƒó 200           0    31.0  refunds
+  ­ƒƒó 200           0    31.0  checkout
+  ­ƒƒó 200           0    31.0  payment
+  ­ƒƒó 200           0    78.0  payments
+  ­ƒƒó 200           0    47.0  pix
+  ­ƒƒó 200           0    47.0  health
+  ­ƒƒó 200           0    62.0  status
+  ­ƒƒó 200           0    31.0  ping
+  ­ƒƒó 200           0   547.0  robots.txt
+  ­ƒƒó 200           0    31.0  phpmyadmin
+  ­ƒƒó 200           0    31.0  pma
+
+ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+  RESUMO ÔÇö 0.8s | 90 paths testados | 77 encontrado(s)
+
+  Paths encontrados (por status):
+    [200] https://55qq2.com/admin
+    [200] https://55qq2.com/admin/
+    [200] https://55qq2.com/admin/login
+    [200] https://55qq2.com/admin/dashboard
+    [200] https://55qq2.com/admin/panel
+    [200] https://55qq2.com/administrator
+    [200] https://55qq2.com/administrator/login
+    [200] https://55qq2.com/adm
+    [200] https://55qq2.com/adm/login
+    [200] https://55qq2.com/zadmin
+    [200] https://55qq2.com/zadmin/
+    [200] https://55qq2.com/zadmin/login
+    [200] https://55qq2.com/manage
+    [200] https://55qq2.com/management
+    [200] https://55qq2.com/manager
+    [200] https://55qq2.com/superadmin
+    [200] https://55qq2.com/backend
+    [200] https://55qq2.com/backoffice
+    [200] https://55qq2.com/controlpanel
+    [200] https://55qq2.com/cp
+    [200] https://55qq2.com/api
+    [200] https://55qq2.com/login
+    [200] https://55qq2.com/logout
+    [200] https://55qq2.com/register
+    [200] https://55qq2.com/signup
+    [200] https://55qq2.com/signin
+    [200] https://55qq2.com/auth
+    [200] https://55qq2.com/auth/login
+    [200] https://55qq2.com/oauth
+    [200] https://55qq2.com/oauth/callback
+    [200] https://55qq2.com/forgot-password
+    [200] https://55qq2.com/reset-password
+    [200] https://55qq2.com/export
+    [200] https://55qq2.com/export/db
+    [200] https://55qq2.com/export/users
+    [200] https://55qq2.com/download
+    [200] https://55qq2.com/backup
+    [200] https://55qq2.com/database
+    [200] https://55qq2.com/dump
+    [200] https://55qq2.com/docs
+    [200] https://55qq2.com/swagger
+    [200] https://55qq2.com/swagger-ui
+    [200] https://55qq2.com/api-docs
+    [200] https://55qq2.com/graphql
+    [200] https://55qq2.com/graphiql
+    [200] https://55qq2.com/debug
+    [200] https://55qq2.com/debug/pprof
+    [200] https://55qq2.com/test
+    [200] https://55qq2.com/staging
+    [200] https://55qq2.com/community
+    [200] https://55qq2.com/members
+    [200] https://55qq2.com/courses
+    [200] https://55qq2.com/lessons
+    [200] https://55qq2.com/affiliate
+    [200] https://55qq2.com/affiliates
+    [200] https://55qq2.com/refund
+    [200] https://55qq2.com/refunds
+    [200] https://55qq2.com/checkout
+    [200] https://55qq2.com/payment
+    [200] https://55qq2.com/payments
+    [200] https://55qq2.com/pix
+    [200] https://55qq2.com/health
+    [200] https://55qq2.com/status
+    [200] https://55qq2.com/ping
+    [200] https://55qq2.com/robots.txt
+    [200] https://55qq2.com/phpmyadmin
+    [200] https://55qq2.com/pma
+    [403] https://55qq2.com/api/v1
+    [403] https://55qq2.com/api/v2
+    [403] https://55qq2.com/api/v3
+    [403] https://55qq2.com/api/admin
+    [403] https://55qq2.com/api/users
+    [403] https://55qq2.com/api/config
+    [403] https://55qq2.com/api/refund
+    [403] https://55qq2.com/api/refunds
+    [403] https://55qq2.com/api/affiliate
+    [403] https://55qq2.com/api/affiliates
+
+[Ô£ô] Path Discovery conclu├¡do.
+

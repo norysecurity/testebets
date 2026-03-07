@@ -1,0 +1,48 @@
+﻿
+  ____       _      _             _ _ _
+ | __ )  ___| |_   / \  _   _  __| (_) |_ ___  _ __
+ |  _ \ / _ \ __| / _ \| | | |/ _` | | __/ _ \| '__|
+ | |_) |  __/ |_ / ___ \ |_| | (_| | | || (_) | |
+ |____/ \___|\__/_/   \_\__,_|\__,_|_|\__\___/|_|
+
+   6 M├│dulos  |  Siente Pentest Suite  |  v2.0
+   race ┬À jwt ┬À fuzz ┬À otp ┬À paths ┬À scan
+ÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉ
+ÔÜá  Apenas para uso em ambientes com autoriza├º├úo formal.
+
+
+ÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉ
+  M├ôDULO 6 ÔÇö CLIENT-SIDE TRUST SCAN
+ÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉ
+
+[*] Baixando e analisando JavaScript de: https://55qq2.com/main/inicio
+   Total de JS analisado: 15,448,412 caracteres
+
+  ­ƒº® L├ôGICA CR├ìTICA NO FRONT-END (5 padr├úo(├Áes)):
+
+    ­ƒö┤ [ALTO] Math.random() no client ÔÇö resultado pode ser previs├¡vel
+       Ocorr├¬ncias : 51
+       Contexto    : ...gth,n="";do{n="";for(var u=0;u<5;u++)n+=a.charAt(Math.floor(Math.random()*i))}while(g.widgetMap.has(n));return n},y=f
+
+    ­ƒö┤ [ALTO] Timestamp como seed ÔÇö previs├¡vel e repet├¡vel
+       Ocorr├¬ncias : 167
+       Contexto    : ...&(o.params=new URLSearchParams(c[1])),o}function B(){return Date.now()}var _t=function(e,t,r,o){var c=gt(t.params,!1,
+
+    ­ƒö┤ [ALTO] Token armazenado em localStorage ÔÇö vulner├ível a XSS
+       Ocorr├¬ncias : 2
+       Contexto    : ...e.log("requestPermission:",v),i.browser===fs.MOBILE_SAFARI&&localStorage.setItem("iosPermission","false"),Rp()):v==="
+
+    ­ƒö┤ [ALTO] Rota admin referenciada no JS do front-end ÔÇö exp├Áe superf├¡cie oculta
+       Ocorr├¬ncias : 2
+       Contexto    : ...CEL","MANUALLYCANCEL"];ae(["ALL",...C5]);const A5=["tenant","admin","tenantSub","tenantChannelSub","company","company
+
+    ­ƒö┤ [ALTO] eval/Function ÔÇö poss├¡vel XSS ou bypass de filtros
+       Ocorr├¬ncias : 1
+       Contexto    : ...ject"==typeof globalThis)return globalThis;try{return this||new Function("return this")()}catch(t){if("object"==typeo
+
+ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+  RESUMO ÔÇö 5 vulnerabilidade(s) de Client-Side Trust encontrada(s)
+    JS_CLIENT_SIDE_LOGIC: 5
+
+[Ô£ô] Client Trust Scan conclu├¡do.
+

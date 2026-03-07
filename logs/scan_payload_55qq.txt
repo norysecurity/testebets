@@ -1,0 +1,21 @@
+﻿python : usage: betauditor [-h] MËDULO ...
+No linha:1 caractere:1
++ python main.py scan --payload "{\"amount\":100,\"seed\":1710860102000 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (usage: betauditor [-h] MËDULO ...:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+betauditor: error: unrecognized arguments: 
+amount\:100,\seed\:1710860102000,\color\:\green\,\is_winner\:true,\role\:\admin\,\deliverable\:true,\time_left\:5000}
+
+  ____       _      _             _ _ _
+ | __ )  ___| |_   / \  _   _  __| (_) |_ ___  _ __
+ |  _ \ / _ \ __| / _ \| | | |/ _` | | __/ _ \| '__|
+ | |_) |  __/ |_ / ___ \ |_| | (_| | | || (_) | |
+ |____/ \___|\__/_/   \_\__,_|\__,_|_|\__\___/|_|
+
+   6 M├│dulos  |  Siente Pentest Suite  |  v2.0
+   race ┬À jwt ┬À fuzz ┬À otp ┬À paths ┬À scan
+ÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉ
+ÔÜá  Apenas para uso em ambientes com autoriza├º├úo formal.
+

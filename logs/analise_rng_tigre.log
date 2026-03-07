@@ -1,0 +1,29 @@
+
+# Análise de RNG - Fortune Tiger (PG Soft)
+# Capturadas em: 2026-03-07
+
+## Rodada 1
+- Hora: 14:43:48
+- SID: 17729054339247827
+- traceId: DWVDOU07
+- Resultado: [4,6,7,6,2,2,5,4,6] (Perda)
+- HashR: "0:4;6;5#6;2;4#7;2;6#MV#0.15#MT#1#MG#0#"
+
+## Rodada 2
+- Hora: 14:43:52
+- SID: 17729054383069025 (Diferença: +43821198)
+- traceId: LVQYKL07
+- Resultado: [6,5,2,3,6,4,6,2,7] (Perda)
+- HashR: "0:6;3;6#5;6;2#2;4;7#MV#0.15#MT#1#MG#0#"
+
+## Rodada 3
+- Hora: 14:43:55
+- SID: 17729054412353787 (Diferença: +29284762)
+- traceId: ATZLQB07
+- Resultado: [5,4,0,6,7,6,6,3,5] (Perda)
+- HashR: "0:5;6;6#4;7;3#0;6;5#MV#0.15#MT#1#MG#0#"
+
+## Observações Técnicas
+1. O `sid` parece ser um timestamp de servidor com milissegundos + sufixo, não é puramente sequencial (+1).
+2. O `traceId` termina sempre em "07", possivelmente indicando o servidor ou versão da API.
+3. O `hashr` é a prova de integridade. Se conseguirmos converter o `sid` anterior no próximo resultado, temos a previsão.
