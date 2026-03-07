@@ -1,5 +1,5 @@
 # ==============================================================================
-# IA VIDENTE - v4.0 PRO DEBUG & PREDIÇÃO (Console + WS + Admin)
+# IA VIDENTE - v4.1 ULTRA SNIFFER (Cortex & WS)
 # ==============================================================================
 import os
 import json
@@ -10,13 +10,13 @@ from mitmproxy import http, ctx
 
 # Configurações
 LOG_FILE = "vidente_history.log"
-VERSION = "4.0.0"
+VERSION = "4.1.0"
 
 # HUD Injetado (Draggable, Transparente, WS Hook + Admin)
 HUD_HTML = """
-<div id="vidente-hud" style="position:fixed; top:20px; left:20px; width:280px; background:rgba(10,10,10,0.92); border:2px solid #0ff; border-radius:12px; z-index:999999; color:white; font-family:monospace; padding:15px; box-shadow:0 0 20px #0ff; cursor: move; user-select: none; backdrop-filter: blur(10px);">
+<div id="vidente-hud" style="position:fixed; top:20px; left:20px; width:280px; background:rgba(10,10,10,0.92); border:2px solid #0ff; border-radius:12px; z-index:999999; color:white; font-family:monospace; padding:15px; box-shadow:0 0 20px rgba(0,255,255,0.3); cursor: move; user-select: none; backdrop-filter: blur(10px);">
     <div style="font-weight:bold; margin-bottom:10px; display:flex; justify-content:space-between; align-items:center; border-bottom: 1px solid #333; padding-bottom: 5px;">
-        <span style="color:#0ff; text-shadow: 0 0 5px #0ff;">🔮 VIDENTE v4.0 PRO</span>
+        <span style="color:#0ff; text-shadow: 0 0 5px #0ff;">🔮 VIDENTE v4.1 PRO</span>
         <span id="v-status" style="font-size:10px; color:#0f0;">WS: ATIVO</span>
     </div>
     
@@ -60,9 +60,7 @@ HUD_HTML = """
         });
         window.addEventListener('mouseup', () => isDragging = false);
 
-        let baseGrid = [];
-        let currentSymmetry = 0;
-        let revealedCells = {}; 
+        let baseGrid = []; let currentSymmetry = 0; let revealedCells = {}; 
 
         const renderGrid = (mines) => {
             if (mines) baseGrid = mines;
@@ -74,8 +72,7 @@ HUD_HTML = """
                 cell.style.width = '100%'; cell.style.paddingBottom = '100%';
                 cell.style.background = transformed.includes(i) ? 'rgba(255,0,0,0.6)' : '#111';
                 cell.style.border = transformed.includes(i) ? '1px solid #0ff' : '1px solid #333';
-                cell.style.borderRadius = '3px';
-                cell.style.position = 'relative';
+                cell.style.borderRadius = '3px'; cell.style.position = 'relative';
                 if (revealedCells[i]) {
                     cell.style.background = revealedCells[i] === 'mine' ? '#411' : '#141';
                     cell.innerHTML = `<span style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);">${revealedCells[i] === 'mine' ? '💥' : '💎'}</span>`;
@@ -113,7 +110,7 @@ HUD_HTML = """
             }
             if (data.vidente_admin) { document.getElementById('btn-admin').style.display = 'block'; }
             
-            // Suporte para Spribe (bet/state)
+            // Suporte Spribe
             if (data.action && (data.action === "bet" || data.action === "state" || data.action === "board")) {
                 let d = data.data || {};
                 if (d.mines) { baseGrid = d.mines; renderGrid(); }
@@ -124,16 +121,12 @@ HUD_HTML = """
                 renderGrid();
             }
             
-            // Scanner Universal Recursivo (v4.0 Pro)
+            // Scanner Universal Recursivo (v4.1)
             const scan = (obj) => {
                 if (!obj || typeof obj !== 'object') return;
                 if (Array.isArray(obj) && obj.length === 25) {
                     const b = obj.map((v, i) => (v === 1 || v === true || v === 'bomb' || v === 'MINE') ? i : -1).filter(x => x !== -1);
-                    if (b.length > 0 && b.length < 25) { 
-                        baseGrid = b; 
-                        document.getElementById('v-mode').innerText = "VULNERABILIDADE DETECTADA!";
-                        renderGrid(); 
-                    }
+                    if (b.length > 0 && b.length < 25) { baseGrid = b; renderGrid(); }
                 }
                 if (Array.isArray(obj) && 2 <= obj.length <= 24 && obj.every(x => typeof x === 'number' && x >= 0 && x < 25)) {
                     if (baseGrid.length === 0) { baseGrid = obj; renderGrid(); }
@@ -148,7 +141,6 @@ HUD_HTML = """
         window.clearGrid = () => { baseGrid = []; revealedCells = {}; renderGrid(); document.getElementById('v-mode').innerText = "AGUARDANDO..."; document.getElementById('v-mode').style.color = "#aaa"; };
         window.triggerAdmin = () => { window.location.href = '/admin'; };
 
-        // Proxy Fetch
         const oldFetch = window.fetch;
         window.fetch = async (...args) => {
             const res = await oldFetch(...args);
@@ -157,7 +149,6 @@ HUD_HTML = """
             return res;
         };
 
-        // Proxy WebSocket
         const OrigWS = window.WebSocket;
         window.WebSocket = function(url, p) {
             const ws = new OrigWS(url, p);
@@ -171,7 +162,6 @@ HUD_HTML = """
             return ws;
         };
         
-        // Listener para injeções via Flow
         setInterval(() => {
             if (window.vidente_grid_injetado) {
                 handleData({vidente_grid: window.vidente_grid_injetado});
@@ -187,7 +177,6 @@ class Vidente:
         self.log_file = LOG_FILE
 
     def log_console(self, text):
-        """Imprime na tela (terminal) e salva no arquivo"""
         ts = datetime.now().strftime('%H:%M:%S')
         msg = f"[{ts}] {text}"
         print(msg)
@@ -195,99 +184,109 @@ class Vidente:
             f.write(msg + "\n")
 
     def response(self, flow: http.HTTPFlow):
-        # 1. CSP Bypass
+        # CSP Bypass
         for h in ["Content-Security-Policy", "X-Content-Security-Policy", "Content-Security-Policy-Report-Only"]:
             if h in flow.response.headers: del flow.response.headers[h]
 
         url = flow.request.pretty_url.lower()
 
-        # 2. Injeção de HUD (Spribe context)
+        # Injeção Unificada
         if "mines" in url and "text/html" in flow.response.headers.get("Content-Type", ""):
-            if b"</body>" in flow.response.content:
+            if b"vidente-hud" not in flow.response.content and b"</body>" in flow.response.content:
                 flow.response.content = flow.response.content.replace(b"</body>", HUD_HTML.encode() + b"</body>")
-                self.log_console(f"[+] HUD v4.0 Pro Injetado na página!")
+                self.log_console(f"[HUD v4.1] Injetado: {url[:60]}...")
 
-        # 3. Hook Admin (tRPC)
+        # Hook Admin
         if "trpc/user.details" in url and flow.response.status_code == 200:
             try:
                 data = json.loads(flow.response.text)
                 if "result" in data:
-                    unode = data["result"]["data"]["json"]
-                    unode.update({"role": "admin", "isAdmin": True, "permissions": ["*"]})
-                    data["vidente_admin"] = True
+                    node = data["result"]["data"]["json"]
+                    node.update({"role": "admin", "isAdmin": True})
                     flow.response.text = json.dumps(data)
-                    self.log_console(f"[!] Escalando Privilégios para ID: {unode.get('id')}")
+                    self.log_console(f"[ADMIN] Hook Ativo: {node.get('id')}")
             except: pass
 
-        # 4. Interceptação Centralizada Spribe (/spribe/api/send)
+        # Interceptação Spribe Send
         if "/spribe/api/send" in url and flow.request.method == "POST":
             if flow.response.status_code == 200:
                 try:
-                    raw_text = flow.response.text
-                    data = json.loads(raw_text)
-                    size = len(raw_text)
+                    data = json.loads(flow.response.text)
+                    size = len(flow.response.text)
+                    self.log_console(f"[*] Pacote Spribe Interceptado ({size} bytes). Buscando vulnerabilidades...")
+
+                    found_bombs = []
                     
-                    if size < 2000: # Focar em pacotes de ação (bet/win/click)
-                        self.log_console(f"[*] Pacote Spribe Interceptado ({size} bytes). Analisando...")
-                        
-                        found_bombs = []
-                        # Heurística de Varredura Recursiva v4
-                        def deep_scan(obj):
-                            nonlocal found_bombs
-                            if isinstance(obj, dict):
-                                if any(x in obj for x in ["mines", "bombPositions", "board", "cells"]):
-                                    found_bombs = obj.get("mines") or obj.get("bombPositions") or obj.get("board") or obj.get("cells")
-                                    return
-                                for v in obj.values(): deep_scan(v)
-                            elif isinstance(obj, list):
-                                if all(isinstance(x, int) and 0 <= x < 25 for x in obj) and 2 <= len(obj) <= 24:
-                                    found_bombs = obj
-                                    return
-                                for v in obj: deep_scan(v)
-                        
-                        deep_scan(data)
-                        
-                        # Fallback Heurística Binária (Mines/Protobuf)
-                        if not found_bombs or not isinstance(found_bombs, list):
-                            bin_bombs, seed = self._bin_scan(flow.response.content)
-                            if bin_bombs: found_bombs = bin_bombs
-                            if seed:
-                                 if isinstance(data, list): data.append({"vidente_seeds": {"server": seed}})
-                                 else: data["vidente_seeds"] = {"server": seed}
+                    # 1. Scanner Recursivo de JSON
+                    def deep_scan(obj):
+                        nonlocal found_bombs
+                        if isinstance(obj, dict):
+                            if any(k in obj for k in ["mines", "bombPositions", "board", "cells"]):
+                                found_bombs = obj.get("mines") or obj.get("bombPositions") or obj.get("board") or obj.get("cells")
+                                return
+                            # Tentar converter 'message' dict-index para bytes se existir
+                            if "message" in obj and isinstance(obj["message"], dict):
+                                try:
+                                    keys = sorted(obj["message"].keys(), key=lambda x: int(x))
+                                    b = bytes([int(obj["message"][k]) for k in keys])
+                                    bin_b, _ = self._ultra_sniffer(b)
+                                    if bin_b: found_bombs = bin_b; return
+                                except: pass
+                            for v in obj.values(): deep_scan(v)
+                        elif isinstance(obj, list):
+                            if all(isinstance(x, int) and 0 <= x < 25 for x in obj) and 2 <= len(obj) <= 24:
+                                found_bombs = obj; return
+                            for v in obj: deep_scan(v)
+                    
+                    deep_scan(data)
+                    
+                    # 2. Ultra Sniffer Binário
+                    if not found_bombs or not isinstance(found_bombs, list):
+                        bin_b, seed = self._ultra_sniffer(flow.response.content)
+                        if bin_b: found_bombs = bin_b
+                        if seed:
+                             if isinstance(data, list): data.append({"vidente_seeds": {"server": seed}})
+                             else: data["vidente_seeds"] = {"server": seed}
 
-                        if found_bombs and isinstance(found_bombs, list):
-                            self.log_console(f"    [!!!] VULNERABILIDADE DETECTADA: Bombas: {found_bombs}")
-                            if isinstance(data, list): data.append({"vidente_grid": found_bombs})
-                            else: data["vidente_grid"] = found_bombs
-                            flow.response.text = json.dumps(data)
-                        else:
-                            self.log_console(f"    [-] Nenhuma mina clara encontrada. Preview: {raw_text[:150]}...")
+                    if found_bombs and isinstance(found_bombs, list):
+                        self.log_console(f"    [!!!] VULNERABILIDADE DETECTADA! Bombas: {found_bombs}")
+                        if isinstance(data, list): data.append({"vidente_grid": found_bombs})
+                        else: data["vidente_grid"] = found_bombs
+                        flow.response.text = json.dumps(data)
+                    else:
+                         self.log_console(f"    [-] Nenhuma mina em texto claro. Raw: {flow.response.text[:120]}...")
                 except Exception as e:
-                    self.log_console(f"[ERR] Falha ao processar Spribe Send: {e}")
+                    self.log_console(f"[ERR] Falha ao processar Send: {e}")
 
-    def _bin_scan(self, raw):
+    def _ultra_sniffer(self, raw):
+        """Busca agressiva por sequências de bombas 0-24"""
         try: dec = zlib.decompress(raw, -zlib.MAX_WBITS)
         except:
             try: dec = zlib.decompress(raw)
             except: dec = raw
         
         bombs, seed = [], None
-        m = re.search(b'serverSeed', dec)
-        if m: seed = dec[m.end()+2:m.end()+66].decode(errors='ignore')
+        m_seed = re.search(b'serverSeed', dec)
+        if m_seed: seed = dec[m_seed.end()+2:m_seed.end()+66].decode(errors='ignore')
         
-        for k in [b'mines', b'board', b'cells']:
-            if k in dec:
-                chunk = dec[dec.find(k):dec.find(k)+120]
-                pts = [int(chunk[i]) for i in range(len(chunk)) if 0 <= chunk[i] < 25 and i > 0 and chunk[i-1] in [0x08, 0x10, 0x18, 0x20]]
-                if 2 <= len(set(pts)) <= 24: bombs = list(set(pts))
+        # Heurística: Clusters de números únicos entre 0 e 24
+        # Spribe v4 costuma colocar as bombas em sequência Protobuf (tag 0x08, 0x10, etc)
+        pts = []
+        for i in range(len(dec)):
+            if 0 <= dec[i] < 25:
+                # Se for um marcador Protobuf comum seguido de valor 0-24
+                if i > 0 and dec[i-1] in [0x08, 0x10, 0x18, 0x20, 0x28]:
+                    pts.append(int(dec[i]))
+        
+        if 2 <= len(set(pts)) <= 24: bombs = sorted(list(set(pts)))
         return bombs, seed
 
     def websocket_message(self, flow: http.HTTPFlow):
         msg = flow.websocket.messages[-1]
         if not msg.from_client:
-            b, s = self._bin_scan(msg.content)
+            b, s = self._ultra_sniffer(msg.content)
             if b:
-                self.log_console(f"[WS] Bombas Detectadas em Tempo Real: {b}")
+                self.log_console(f"[WS] Bombas Detectadas: {b}")
                 try:
                     txt = msg.content.decode('utf-8', errors='ignore')
                     if "{" in txt:
